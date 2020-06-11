@@ -32,13 +32,13 @@ width: 900px; max-width: 100%;
 height: 260px;
 border-radius: 15px;
 overflow: auto;}
-#Panel { padding-right: 20px; padding-left: 20px;
+#Panel { padding-right: 10px; padding-left: 10px;
 display: flex; flex-wrap: wrap; margin-top: 3px;
 
 }
 #Panel>div {  position: relative;
     box-sizing: border-box;
-margin: 6px;
+margin-left: 8px; margin-right: 8px; margin-top: 4px;
 padding-top: 20px;
 animation: fadeIn ease 2s;
 }
@@ -53,11 +53,6 @@ animation: fadeIn ease 2s;
     visibility: visible;
   }
 
-
-/*   
-  div div:hover {
-    transform: scale(1.1);
-} */
 
 .addTask {
   
@@ -82,10 +77,8 @@ p:first-of-type{padding: 5px 22px 5px 2px; font-size:22px; text-align: center; h
 p~p{font-size:14px; margin-left:10px;margin-top: 1px ;margin-bottom: 1px; }
 
 
-/* 
-input:focus:invalid {
-  box-shadow: none;
-} */
+
+
 
 
 textarea:required,

@@ -11,9 +11,7 @@ function ObjNotes(id,task,date,time){
     this.id = id
     this.task = task
     this.date = date
-    this.time = time
-
-}
+    this.time = time}
 
 window.onload =function () {
     var temp = localStorage.getItem("allNotes");
@@ -49,7 +47,7 @@ function ToAddTask(e) {
         NoteArr.push(temp)
         counterId++  
         localStorage.setItem("allNotes", JSON.stringify(NoteArr))
-        inTask.value=""; inDate.value="";  inTask.value="";
+        inTask.value=""; inDate.value="";  inTime.value="";
         }
 }
 
