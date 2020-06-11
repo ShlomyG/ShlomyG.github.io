@@ -1,4 +1,3 @@
-
 var inTask = document.getElementById("yourNote");
 var inDate = document.getElementById("yourDate");
 var inTime = document.getElementById("yourTime");
